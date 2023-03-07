@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>Password Generator</h1>
+        <div id="output">
+            <input type="text" id="out" value="Hello Viewers !!!" readonly>
+            <button id="copy-button">
+                <span class="material-symbols-outlined" id="copy-symbol">
+                    content_copy
+                </span>
+            </button>
+        </div>
+        <div class="checkbox-style">
+            <input type="checkbox" name="caps" id="caps">
+            <label for="caps" class="label-text">
+                Upper Case Alphabets
+            </label>
+        </div >
+        <div class="checkbox-style">
+            <input type="checkbox" name="small" id="small">
+            <label for="small" class="label-text">
+                Lower Case Alphabets
+            </label>
+        </div >
+        <div class="checkbox-style">
+            <input type="checkbox" name="numbers" id="numbers">
+            <label for="numbers" class="label-text">
+                Numbers
+            </label>
+        </div>
+        <div class="checkbox-style">
+            <input type="checkbox" name="sym" id="sym">
+            <label for="sym" class="label-text">
+                Special symbols
+            </label>
+        </div>
+        <div id="select-div">
+            <label for="size" id="select-label">Select the size of password</label>
+            <select name="size" id="size">
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+            </select>
+        </div>
+        <button id="generate">Generate</button>
+    </div>
+    <div id="copyright"><i>&#169;</i> &nbsp;  All Rights Reserved to &nbsp;<b>Syed Zaheer Hossain</b></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
