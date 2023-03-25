@@ -229,7 +229,7 @@ i{
     }
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:380px) and (min-width:360px){
     #copyright{
         bottom: -160px;
     }
@@ -264,5 +264,11 @@ i{
         /* text-align: center; */
         left:0;
         margin:auto;
+    }
+}
+
+@media screen and (max-width:360px){
+    #copyright{
+        bottom:-100px;
     }
 }
