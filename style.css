@@ -73,7 +73,7 @@ h1{
     flex-direction: row;
     border:5px black solid ;
     border-radius: 50px;
-    width:27rem;
+    width:90%;
     
     margin:0 auto;
     /* z-index:2; */
@@ -182,4 +182,87 @@ i{
     font-weight:1000;
     font-size:30px;
     font-style: normal;
+}
+
+@media screen and (max-width:550px){
+    
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #copyright{
+        position: none;
+        position: absolute;
+        bottom: 20px;
+    }
+
+    #container{
+        min-width:0;
+        width:90%;
+        /* margin: 1rem; */
+        margin:0 auto;
+    }
+
+    .checkbox-style{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:650px){
+    .label-text{
+        font-size: 1.5rem;
+    }
+    #copyright{
+        position: absolute;
+        /* left:0; */
+        text-align: center;
+        width:90vw;
+        margin:auto;
+        margin-bottom: 1rem;
+    }
+
+    #container{
+        min-width:0;
+        width:90%;
+    }
+}
+
+@media screen and (max-width:380px){
+    #copyright{
+        bottom: -160px;
+    }
+    #container{
+        margin: 3rem 1rem;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:380px){
+    #copyright{
+        bottom: -10px;
+    }
+    #container{
+        /* margin: 3rem 1rem; */
+        margin: -1rem 1rem;
+    }
+}
+
+@media screen and (max-width:420px) and (min-width:400px){
+    #container{
+        margin:-70px auto;
+    }
+    #copyright{
+        bottom:40px;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:420px){
+    #copyright{
+        bottom:-60px;
+        width:60vw;
+        /* text-align: center; */
+        left:0;
+        margin:auto;
+    }
 }
