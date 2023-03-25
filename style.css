@@ -74,7 +74,7 @@ body{
     border-radius: 50px;
     width:90%;
     
-    margin: 1.5rem auto 1rem auto;
+    margin: 1rem auto .5rem auto;
     z-index:2; 
     min-height:3rem; 
     /* overflow: visible;  */
@@ -160,7 +160,7 @@ option{
 h1{
     font-family: 'Roboto Condensed';
     text-align:center;
-    font-size: 70px;
+    font-size: 50px;
     margin-top:0;
     background-color: var(--black);
     color: var(--white);
@@ -175,7 +175,7 @@ h1{
 
 .label-text{
     font-family: Sofia sans;
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px 15px;
 }
 
@@ -192,21 +192,21 @@ h1{
 }
 
 #copyright {
-    margin: 1rem;
+    margin: .5rem;
     text-align: center;
     color: var(--white);
     font-family: 'Roboto Condensed';
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 1000;
 }
 
 #copyright i{
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-decoration: none;
 }
 
 #copyright b{
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-decoration: none;
 }
 
